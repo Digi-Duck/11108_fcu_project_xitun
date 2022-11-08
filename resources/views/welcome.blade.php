@@ -447,7 +447,7 @@
             </div>
             <div class="mt-8 bg-white dark:bg-gray-800 overflow-hidden shadow sm:rounded-lg">
                 <div class="grid grid-cols-1 md:grid-cols-1 font-1">
-                    <a href="/xitunindex">前台首頁</a>
+                    <a href="/">前台首頁</a>
                 </div>
             </div>
 

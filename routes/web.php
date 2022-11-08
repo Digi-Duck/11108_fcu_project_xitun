@@ -15,11 +15,11 @@ use App\Http\Controllers\sortController;
 */
 
 // 客戶端
-Route::get('/xitunindex',[ProjectController::class,'printclient']);
+Route::get('/',[ProjectController::class,'printclient']);
 
 
 //歡迎頁面
-Route::get('/', function () {
+Route::get('/welcome', function () {
     return view('welcome');
 });
 // 登入後後台
