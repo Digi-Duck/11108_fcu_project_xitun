@@ -114,12 +114,11 @@ width: 100%;
 }
 
 .schedule #iconCar {
-    width: 50%;
+    width: 300%;
     position: absolute;
-    left: 10%;
-    bottom: 50%;
-    transform: translateY(150%);
+    left: -355%;
     z-index: 22;
+    top:-50px;
 }
 
 .schedule #lineimg {
@@ -292,13 +291,7 @@ width: 100%;
 
     }
 
-    .schedule #iconCar {
-        width: 60%;
-        height: 200px;
-        position: absolute;
-        left:-15%;
-        bottom: 40%;
-    }
+
 
     .schedule #lineimg {
         width: 25%;
@@ -333,6 +326,13 @@ width: 100%;
         margin: auto; */
         font-size: 20px;margin-left:48%;
    }
+   .schedule #iconCar {
+    width: 140%;
+    position: absolute;
+    left: -150%;
+    z-index: 22;
+    top:50px;
+}
 
 }
 
@@ -365,15 +365,7 @@ width: 100%;
 
 
 @media (max-width: 1024px) {
-    /* .footer-box {
-        margin-top: 400px;
-    } */
 
-    .schedule #iconCar {
-        left:47%;
-       width: 34%;
-       top: 43.5%;
-    }
     .schedule #mailtext {
         font-size: 20px;
         margin-left:0%;
@@ -391,14 +383,23 @@ width: 100%;
     .footer-box .logo img {
         width: 35%;
     }
+    .schedule #iconCar {
+        width:40%;
+left: 100%;
+transform: translateX(-100%);
+top:80%
+
+    }
 }
 
 @media (max-width: 860px) {
 
     .schedule #iconCar {
-        width: 30%;
-        left:52%;
-        top: 43.5%;
+        width:40%;
+left: 100%;
+transform: translateX(-100%);
+top:80%
+
     }
 }
 
@@ -409,11 +410,11 @@ width: 100%;
     .footer-box {
         margin-top:-10px;
     }
-    .schedule #iconCar {
+    /* .schedule #iconCar {
         width:25%;
         left:60%;
-        top: 40%;
-    }
+        top:36;
+    } */
     /* .schedule #iconCar {
         width: 80%;
         height: 200px;
@@ -461,10 +462,14 @@ display: none;
 }
 
 /*# sourceMappingURL=invitation.css.map */
-@media (max-width: 432px){
 
-    .schedule #iconCar {
-        width:25%;
-        left:63%;
-        top: 60%;
-    }}
+@media(max-width:500px)
+{    .schedule #iconCar {
+    width:25%;
+left: 97%;
+transform: translateX(-100%);
+top:70%
+
+}
+
+}

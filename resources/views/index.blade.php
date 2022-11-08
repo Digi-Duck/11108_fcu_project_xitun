@@ -513,10 +513,7 @@
                 </div>
             </div>
 
-            <!--車子與線條圖片 -->
-            <div id="iconCar">
-                <img src="./invitationPHOTO/SVG_draw_car.svg" style="width:100%;" alt="灰棕色敞篷跑車圖片">
-            </div>
+            <!--車子線條圖片 -->
             <div id="lineimg">
                 <img src="./invitationPHOTO/SVG_line8.svg" alt="背景線條" style="width:100%;">
             </div>
@@ -527,6 +524,9 @@
                 <p>西屯純愛組</p>
                 <a href="mailto:highlocandhenry@gmail.com" target="_blank">highlocandhenry@gmail.com</a>
                 <img src="./invitationPHOTO/SVG_draw_music.svg"  alt="背景文字MUSIC" class="img_music">
+                <div id="iconCar">
+                    <img src="./invitationPHOTO/SVG_draw_car.svg" style="width:100%;" alt="灰棕色敞篷跑車圖片">
+                </div>
             </div>
 
         </div>
