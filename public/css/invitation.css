@@ -43,20 +43,24 @@
 
 
 .schedule #information .datetext {
-    width: 40%;
-    height: 458px;
+    border-radius: 10px;
+    width: 50%;
+    /* height: 458px; */
     /* margin-left: 75px; */
     background-color: rgba(233, 211, 152, 0.4588235294);
-    padding: 0 0 20px 20px;
+    padding: 0 20px 20px 20px;
     box-sizing: border-box;
 
 }
 
 #datetext_ul {
     overflow-y: scroll;
+    overflow-x: hidden;
     height: 85%;
-}
+width: 100%;
 
+
+}
 /* NEWS */
 #newstext {
     display: inline-block;
@@ -86,11 +90,9 @@
     color: white;
 }
 
-#datetext_ul {
-    padding-right: 10px;
-}
 
 .schedule #information .datetext .date {
+    text-align: left;
     font-size: 22px;
     font-weight: bold;
     margin-bottom: 10px;
@@ -109,7 +111,7 @@
     display: block;
     padding-left: 10px;
     font-size: 16px;
-    margin-top: -25px;
+    /* margin-top: -25px; */
 }
 
 .schedule #iconCar {
@@ -133,8 +135,8 @@
     height: 140px;
     background-color: #048ABF;
     color: white;
-    margin-left: 66.5%;
-    margin-top: 8%;
+    margin-left: 64%;
+    margin-top: 4%;
     position: relative;
     padding: 20px;
     font-size: 22px;
@@ -389,7 +391,7 @@
     }
 
     .footer-box .logo img {
-        width: 25%;
+        width: 35%;
     }
 }
 
@@ -407,12 +409,12 @@
         width: 70%;
         height: 400px;}
     .footer-box {
-        margin-top:0px;
+        margin-top:-10px;
     }
     .schedule #iconCar {
         width:25%;
-        left:54%;
-        top: 45%;
+        left:57%;
+        top: 47%;
     }
     /* .schedule #iconCar {
         width: 80%;
@@ -423,10 +425,7 @@
     } */
 
     .schedule #lineimg {
-        width: 40%;
-        position: absolute;
-        left: -15%;
-        bottom: -35%;
+display: none;
     }
 
     .schedule #mailtext {
@@ -434,7 +433,7 @@
         height: 70px;
         font-size: 14px;
     }
-    .schedule #information .datetext {width: 80%;}
+    .schedule #information .datetext {width: 100%;}
 
     .schedule #information .datetext .title {
         font-size: 14px;
@@ -447,7 +446,16 @@
     .schedule #information .datetext .description {
         font-size: 14px;
     }
+    #newstext {
+        display: inline-block;
+        padding: 15px 20px 15px 5px;
+        color: #f4eeee;
+        font-size: 30px;
 
+        font-weight: bolder;
+
+
+    }
     /* .schedule #information .datetext .description2 {
     margin-bottom: 25px;
     display: block;
