@@ -412,7 +412,7 @@ width: 100%;
     .schedule #iconCar {
         width:25%;
         left:60%;
-        top: 47%;
+        top: 40%;
     }
     /* .schedule #iconCar {
         width: 80%;
@@ -425,7 +425,7 @@ width: 100%;
     .schedule #lineimg {
 display: none;
     }
-
+    .text{font-size: 14px;}
     .schedule #mailtext {
         margin-top: 10%;
         height: 70px;
