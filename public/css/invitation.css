@@ -95,7 +95,6 @@ width: 100%;
     text-align: left;
     font-size: 22px;
     font-weight: bold;
-    margin-bottom: 10px;
     display: block;
 }
 
@@ -285,7 +284,6 @@ width: 100%;
 
     .schedule #information .datetext {
         width: 70%;
-        height: 440px;
         z-index: 99;
         margin-top: 60px;
 
@@ -407,13 +405,13 @@ width: 100%;
 @media (max-width: 768px) and (min-width: 375px) {
     .schedule #information .datetext {
         width: 70%;
-        height: 400px;}
+    }
     .footer-box {
         margin-top:-10px;
     }
     .schedule #iconCar {
         width:25%;
-        left:57%;
+        left:60%;
         top: 47%;
     }
     /* .schedule #iconCar {
