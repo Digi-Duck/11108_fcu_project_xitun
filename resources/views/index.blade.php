@@ -105,20 +105,20 @@
             </ul>
 
             <ul class="iconContent">
-                <li><a href="https://m.facebook.com/HIGHLOCANDHENRY/"><img class="iconli" src="./img/icon_fb.svg" alt=""
+                <li><a href="https://facebook.com/HIGHLOCANDHENRY/" target="_blank"><img class="iconli" src="./img/icon_fb.svg" alt=""
                             id="nav-fb"></a></li>
                 <li>
-                    <a href="https://www.instagram.com/highlocandhenry/">
+                    <a href="https://www.instagram.com/highlocandhenry/" target="_blank">
                         <img class="iconli" src="./img/icon_ig.svg" alt="" id="nav-ig">
                     </a>
                 </li>
                 <li>
-                    <a href="https://www.youtube.com/channel/UCp0ogU9BUkTSVLwyv-44T2w">
+                    <a href="https://www.youtube.com/channel/UCp0ogU9BUkTSVLwyv-44T2w" target="_blank">
                         <img class="iconli" src="./img/icon_yt.svg" alt="" id="nav-yt">
                     </a>
                 </li>
                 <li>
-                    <a href="https://www.fireonshop.com/">
+                    <a href="https://www.fireonshop.com/products/spirit-of-buffalo" target="_blank">
                         <img class="iconli" src="./img/icon_cart.svg" alt="" id="nav-cart">
                     </a>
                 </li>
@@ -142,21 +142,21 @@
                                 class="ham-content-svg" onclick="hamclose()"></a></li>
                 </div>
                 <div class="ham-menu-icon">
-                    <li><a href="https://m.facebook.com/HIGHLOCANDHENRY/"><img class="iconli" src="./img/icon_fb.svg"
+                    <li><a href="https://m.facebook.com/HIGHLOCANDHENRY/" target="_blank"><img class="iconli" src="./img/icon_fb.svg"
                                 alt="" id="nav-fb"></a>
                     </li>
                     <li>
-                        <a href="https://www.instagram.com/highlocandhenry/">
+                        <a href="https://www.instagram.com/highlocandhenry/" target="_blank">
                             <img class="iconli" src="./img/icon_ig.svg" alt="" id="nav-ig">
                         </a>
                     </li>
                     <li>
-                        <a href="https://www.youtube.com/channel/UCp0ogU9BUkTSVLwyv-44T2w">
+                        <a href="https://www.youtube.com/channel/UCp0ogU9BUkTSVLwyv-44T2w" target="_blank">
                             <img class="iconli" src="./img/icon_yt.svg" alt="" id="nav-yt">
                         </a>
                     </li>
                     <li>
-                        <a href="https://www.fireonshop.com/">
+                        <a href="https://www.fireonshop.com/products/spirit-of-buffalo" target="_blank">
                             <img class="iconli" src="./img/icon_cart.svg" alt="" id="nav-cart">
                         </a>
                     </li>
@@ -330,8 +330,8 @@
                 <div class="about-main">
                     <!-- 關於 aboout 大標的圖片 -->
                     <div class="about-bigtitle">
-                        <div class="about-bigtitle-ch"></div>
-                        <div class="about-bigtitle-en"></div>
+                        <img src="../img/svgside/SVG_side_ch_about.svg" alt="" class="about-bigtitle-ch">
+                        <img src="../img/svgside/SVG_side_about.svg" alt="" class="about-bigtitle-en">
                     </div>
                     <!-- 左右人物 -->
                     <!-- highloc ( 色塊 人 名)-->
@@ -357,13 +357,13 @@
                         </div>
                         <!-- 外部連結 -->
                         <div class="about-link">
-                            <a href="https://www.facebook.com/HIGHLOCANDHENRY/"><img src="./img/icon_fb.svg"
+                            <a href="https://www.facebook.com/HIGHLOCANDHENRY/" target="_blank"><img src="./img/icon_fb.svg"
                                     alt="facebook" class="about-mousehover"></a>
-                            <a href="https://www.instagram.com/highlocandhenry/"><img src="./img/icon_ig_about.svg"
+                            <a href="https://www.instagram.com/highlocandhenry/" target="_blank"><img src="./img/icon_ig_about.svg"
                                     alt="instagram" id="about-ig" class="about-mousehover"></a>
-                            <a href="https://www.youtube.com/channel/UCp0ogU9BUkTSVLwyv-44T2w/featured"><img
+                            <a href="https://www.youtube.com/channel/UCp0ogU9BUkTSVLwyv-44T2w/featured" target="_blank"><img
                                     src="./img/icon_yt.svg" alt="youtube" class="about-mousehover"></a>
-                            <a href="facebook.com"><img src="./img/icon_cart.svg" alt="facebook"
+                            <a href="https://www.fireonshop.com/products/spirit-of-buffalo" target="_blank"><img src="./img/icon_cart.svg" alt="fireonshop"
                                     class="about-mousehover"></a>
                         </div>
                     </div>
@@ -392,23 +392,25 @@
                     </div>
                 </h2>
                 <div class="modal-content">
-                    2022 RedBull Taiwan 飛行日 選手之夜<br />
-                    2022 台中刺青展<br />
-                    2022 喔北搖音樂節<br />
-                    2022 台秋祭<br />
-                    2022 台灣祭<br />
-                    2022 山城生活節<br />
-                    2022 MTV得理不饒人演唱會<br />
-                    2022 Dickies 旗艦店開幕演出<br />
-                    2021 台秋西提 都會派對<br />
-                    2021 山城生活節<br />
-                    2021 國安好宅開工Party<br />
-                    2020 搖滾連續祭<br />
-                    2019 龍虎門返校音樂節<br />
-                    2019 大黑熊部落<br />
-                    2018 黑熊部落<br />
-                    2018 大放槍籃球賽 中場演出<br />
-                    2018 飄遊者音樂節<br />
+                    <ul>
+                        <li>2022 RedBull Taiwan 飛行日 選手之夜</li>
+                        <li>2022 台中刺青展</li>
+                        <li>2022 喔北搖音樂節</li>
+                        <li>2022 台秋祭</li>
+                        <li>2022 台灣祭</li>
+                        <li>2022 山城生活節</li>
+                        <li>2022 MTV得理不饒人演唱會</li>
+                        <li>2022 Dickies 旗艦店開幕演出</li>
+                        <li>2021 台秋西提 都會派對</li>
+                        <li>2021 山城生活節</li>
+                        <li>2021 國安好宅開工Party</li>
+                        <li>2020 搖滾連續祭</li>
+                        <li>2019 龍虎門返校音樂節</li>
+                        <li>2019 大黑熊部落</li>
+                        <li>2018 黑熊部落</li>
+                        <li>2018 大放槍籃球賽 中場演出</li>
+                        <li>2018 飄遊者音樂節</li>
+                    </ul>
                 </div>
             </div>
 
@@ -419,14 +421,17 @@
                     </div>
                 </h2>
                 <div class="modal-content">
-                    2022 MENACE II SOCIETY 攜手蛋頭BG8LOCC<br />
-                    2022 鄉下來的Remix 與玖壹壹一同參與創作<br />
-                    2022 Still Here Dickies 100 週年企劃單曲<br />
-                    2022 狼魂「閃電狼戰隊」2022 主題曲<br />
-                    2021 Taichill City G'z feat. 夏沐<br />
-                    2021 壞南孩 Down South Boys 攜手Barry Chen 合作南岸音樂<br />
-                    2020 想和妳再一次 feat. Veronica Lin<br />
-                    2020 台灣製造 feat. L.C小光<br />
+                    <ul>
+                        <li>2022 MENACE II SOCIETY 攜手蛋頭BG8LOCC</li>
+                        <li>2022 鄉下來的Remix 與玖壹壹一同參與創作</li>
+                        <li>2022 Still Here Dickies 100 週年企劃單曲</li>
+                        <li>2022 狼魂「閃電狼戰隊」</li>
+                        <li>2022 主題曲</li>
+                        <li>2021 Taichill City G'z feat. 夏沐</li>
+                        <li>2021 壞南孩 Down South Boys 攜手Barry Chen 合作南岸音樂</li>
+                        <li>2020 想和妳再一次 feat. Veronica Lin</li>
+                        <li>2020 台灣製造 feat. L.C小光</li>
+                    </ul>
                 </div>
             </div>
 
@@ -465,7 +470,7 @@
 
         <div class="schedule scroll-page" id="page-4">
             <div id="invitext">
-                <img src="./invitationPHOTO/SVG_side_invitation.svg" style="width: 38%;" alt="側欄標題invitation">
+                <img src="./invitationPHOTO/SVG_side_invitation.svg"  id="invitext-en" alt="側欄標題invitation">
             </div>
 
             <div id="information">
@@ -518,7 +523,7 @@
             <img src="./invitationPHOTO/SVG_logo_old.svg" alt="西屯純愛組LOGO圖片">
         </div>
         <div class="link">
-            <a href="https://m.facebook.com/HIGHLOCANDHENRY/" target="_blank">
+            <a href="https://facebook.com/HIGHLOCANDHENRY/" target="_blank">
                 <img src="./invitationPHOTO/icon_fb.svg" alt="FB連結的ICON" height="38px" class="footer-hover">
             </a>
             <a href="https://www.instagram.com/highlocandhenry/" target="_blank">
@@ -527,7 +532,7 @@
             <a href="https://www.youtube.com/channel/UCp0ogU9BUkTSVLwyv-44T2w" target="_blank">
                 <img src="./invitationPHOTO/icon_yt.svg" alt="YOUTUBE連結的ICON" height="38px" class="footer-hover">
             </a>
-            <a href="https://www.fireonshop.com/" target="_blank">
+            <a href="https://www.fireonshop.com/products/spirit-of-buffalo" target="_blank">
                 <img src="./invitationPHOTO/icon_cart (1).svg" alt="實體專輯的購物車連結ICON" height="31px" class="footer-hover">
             </a>
         </div>
