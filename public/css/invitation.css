@@ -461,3 +461,10 @@ display: none;
 }
 
 /*# sourceMappingURL=invitation.css.map */
+@media (max-width: 432px){
+
+    .schedule #iconCar {
+        width:25%;
+        left:63%;
+        top: 60%;
+    }}
