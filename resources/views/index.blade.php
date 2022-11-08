@@ -475,23 +475,24 @@
 
             <div id="information">
                 <!-- 日歷日歷圖片 -->
-                <div class="dateimg">
+                {{-- <div class="dateimg">
                     <img src="./invitationPHOTO/SVG-日曆.svg" style="width:100%;height:100%" alt="日曆圖片">
-                </div>
+                </div> --}}
                 <!-- 活動消息呈現 -->
 
                 <div class="datetext">
                     <span id="newstext">NEWS</span>
                     {{-- <button class=" btn-top"><a href="/clientold">最舊置頂</a></button>
                     <button class=" btn-top"><a href="/clientnew">最新置頂</a></button> --}}
+
                     <ul id="datetext_ul">
                         @foreach ($project as $index => $item)
+                        <hr>
                         <li>
                             <span class="date"> 📅{{ $item->date }}</span>
                             <span class="title">{{ $item->title }}</span>
                             <br>
-                            <span class="description">{!!$item->description!!}</span>
-                            <hr>
+                                                        <span class="description">{!!$item->description!!}</span>
                         </li>
                         @endforeach
                     </ul>
@@ -511,7 +512,7 @@
                 <img src="./invitationPHOTO/活動邀約.svg" alt="圖片檔的文字是活動邀約" width="150px" class="img_active">
                 <p>西屯純愛組</p>
                 <a href="mailto:highlocandhenry@gmail.com" target="_blank">highlocandhenry@gmail.com</a>
-                <img src="./invitationPHOTO/SVG_draw_music.svg" style="width:180px;" alt="背景文字MUSIC" class="img_music">
+                <img src="./invitationPHOTO/SVG_draw_music.svg"  alt="背景文字MUSIC" class="img_music">
             </div>
 
         </div>
