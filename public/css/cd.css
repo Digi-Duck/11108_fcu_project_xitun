@@ -196,7 +196,7 @@
     transform-style: preserve-3d;
     position: relative;
     transform-origin: center -200px;
-    animation: run 5s linear infinite;
+    animation: run 10s linear infinite;
     margin-bottom: 0px;
     animation-delay: 2s;
     animation-duration: alternate;
