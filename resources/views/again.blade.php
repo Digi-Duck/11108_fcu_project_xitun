@@ -294,7 +294,7 @@
             height: 100%;
             display: flex;
             background-color:#FF7979;
-            
+
         }
 
         .detail-rbc img {
@@ -391,7 +391,7 @@
             transform: translate(-50%, -50%);
             white-space: nowrap;
             width: 100%;
-          
+
         }
     </style>
 
@@ -455,25 +455,25 @@
                     </div>
                     <ul class="shared">
                         <li class="shr">
-                            <a href="https://youtu.be/Glq1gHC-gos">
+                            <a href="https://youtu.be/Glq1gHC-gos" target="_blank">
                                 <img src="./cd/icon/icon_yt.svg" alt="">
                                 <span>YOUTUBE</span>
                             </a>
                         </li>
                         <li class="shr">
-                            <a href="https://open.spotify.com/track/0iqUhxMrDRHEBt8DIQgZsI?si=c43b0400140b4275">
+                            <a href="https://open.spotify.com/track/0iqUhxMrDRHEBt8DIQgZsI?si=c43b0400140b4275" target="_blank">
                                 <img src="./cd/icon/icon_spotify.svg" alt="">
                                 <span>SPOTIFY</span>
                             </a>
                         </li>
                         <li class="shr">
-                            <a href="https://music.apple.com/tw/album/%E6%83%B3%E5%92%8C%E5%A6%B3%E5%86%8D%E4%B8%80%E6%AC%A1-feat-veronica-lin/1530543426?i=1530543450">
+                            <a href="https://music.apple.com/tw/album/%E6%83%B3%E5%92%8C%E5%A6%B3%E5%86%8D%E4%B8%80%E6%AC%A1-feat-veronica-lin/1530543426?i=1530543450" target="_blank">
                                 <img src="./cd/icon/icon_paly.svg" alt="">
                                 <span>Apple Music</span>
                             </a>
                         </li>
                         <li class="shr">
-                            <a href="https://www.fireonshop.com/products/spirit-of-buffalo">
+                            <a href="https://www.fireonshop.com/products/spirit-of-buffalo" target="_blank">
                                 <img src="./cd/icon/icon_cart.svg" alt="">
                                 <span>點我購買</span>
                             </a>

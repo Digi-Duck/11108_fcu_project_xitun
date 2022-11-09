@@ -314,8 +314,8 @@
                         style="background-image: url(./cd/cd-MENACE\ II\ SOCIETY-side.jpg);"></a>
                 </div>
                 <img src="./img/SVG_draw_radio.svg" alt="" class="music-radio">
-                <a href="https://www.youtube.com/channel/UCp0ogU9BUkTSVLwyv-44T2w"><img src="./img/SVG_more.svg" alt=""
-                        class="music-side-more"></a>
+                <a href="https://bfan.link/shui-niu-jing-shen"><img src="./img/SVG_more.svg" alt=""
+                        class="music-side-more" target="_blank"></a>
             </div>
             <!-- <div class="more">
                 <img src="./cd/icon、裝飾圖/SVG_more.svg" alt="">

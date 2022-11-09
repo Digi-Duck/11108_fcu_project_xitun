@@ -390,7 +390,7 @@
             transform: translate(-50%, -50%);
             white-space: nowrap;
             width: 100%;
-          
+
         }
     </style>
 
@@ -454,25 +454,25 @@
                     </div>
                     <ul class="shared">
                         <li class="shr">
-                            <a href="https://youtu.be/ex4u-wUKHO4">
+                            <a href="https://youtu.be/ex4u-wUKHO4" target="_blank">
                                 <img src="./cd/icon/icon_yt.svg" alt="">
                                 <span>YOUTUBE</span>
                             </a>
                         </li>
                         <li class="shr">
-                            <a href="https://open.spotify.com/track/19ioN2icxc9h7I5ybXDPF5?si=6ca70dc9383940ec">
+                            <a href="https://open.spotify.com/track/19ioN2icxc9h7I5ybXDPF5?si=6ca70dc9383940ec" target="_blank">
                                 <img src="./cd/icon/icon_spotify.svg" alt="">
                                 <span>SPOTIFY</span>
                             </a>
                         </li>
                         <li class="shr">
-                            <a href="https://music.apple.com/tw/album/%E5%A4%8F%E5%A4%95%E5%A4%8F%E6%99%AF-feat-melo-moon/1595141032?i=1595141036">
+                            <a href="https://music.apple.com/tw/album/%E5%A4%8F%E5%A4%95%E5%A4%8F%E6%99%AF-feat-melo-moon/1595141032?i=1595141036" target="_blank">
                                 <img src="./cd/icon/icon_paly.svg" alt="">
                                 <span>Apple Music</span>
                             </a>
                         </li>
                         <li class="shr">
-                            <a href="https://www.fireonshop.com/products/spirit-of-buffalo">
+                            <a href="https://www.fireonshop.com/products/spirit-of-buffalo" target="_blank">
                                 <img src="./cd/icon/icon_cart.svg" alt="">
                                 <span>點我購買</span>
                             </a>

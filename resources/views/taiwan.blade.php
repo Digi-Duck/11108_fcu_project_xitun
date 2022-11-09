@@ -389,7 +389,7 @@
             transform: translate(-50%, -50%);
             white-space: nowrap;
             width: 100%;
-          
+
         }
     </style>
 
@@ -453,25 +453,25 @@
                     </div>
                     <ul class="shared">
                         <li class="shr">
-                            <a href="https://www.youtube.com/watch?v=JnFycDE2Qww&ab_channel=BrainZapp">
+                            <a href="https://www.youtube.com/watch?v=JnFycDE2Qww&ab_channel=BrainZapp" target="_blank">
                                 <img src="./cd/icon/icon_yt.svg" alt="">
                                 <span>YOUTUBE</span>
                             </a>
                         </li>
                         <li class="shr">
-                            <a href="https://open.spotify.com/track/4kYs2keBgDuCZFyDKHbilA?si=618dee7ab5b246c4">
+                            <a href="https://open.spotify.com/track/4kYs2keBgDuCZFyDKHbilA?si=618dee7ab5b246c4" target="_blank">
                                 <img src="./cd/icon/icon_spotify.svg" alt="">
                                 <span>SPOTIFY</span>
                             </a>
                         </li>
                         <li class="shr">
-                            <a href="https://music.apple.com/tw/album/%E5%8F%B0%E7%81%A3%E8%A3%BD%E9%80%A0-feat-l-c-%E5%B0%8F%E5%85%89/1530543426?i=1530543594">
+                            <a href="https://music.apple.com/tw/album/%E5%8F%B0%E7%81%A3%E8%A3%BD%E9%80%A0-feat-l-c-%E5%B0%8F%E5%85%89/1530543426?i=1530543594" target="_blank">
                                 <img src="./cd/icon/icon_paly.svg" alt="">
                                 <span>Apple Music</span>
                             </a>
                         </li>
                         <li class="shr">
-                            <a href="https://www.fireonshop.com/products/spirit-of-buffalo">
+                            <a href="https://www.fireonshop.com/products/spirit-of-buffalo" target="_blank">
                                 <img src="./cd/icon/icon_cart.svg" alt="">
                                 <span>點我購買</span>
                             </a>

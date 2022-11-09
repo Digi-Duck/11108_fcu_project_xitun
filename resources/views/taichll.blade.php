@@ -390,7 +390,7 @@
             transform: translate(-50%, -50%);
             white-space: nowrap;
             width: 100%;
-          
+
         }
     </style>
 
@@ -454,25 +454,25 @@
                     </div>
                     <ul class="shared">
                         <li class="shr">
-                            <a href="https://youtu.be/TH2DtQ9M7GI">
+                            <a href="https://youtu.be/TH2DtQ9M7GI" target="_blank">
                                 <img src="./cd/icon/icon_yt.svg" alt="">
                                 <span>YOUTUBE</span>
                             </a>
                         </li>
                         <li class="shr">
-                            <a href="https://open.spotify.com/album/0e4ibeKsjkM2tlb4tN794m?si=Rodj3gK3Q4ShA1-yWiz9jQ">
+                            <a href="https://open.spotify.com/album/0e4ibeKsjkM2tlb4tN794m?si=Rodj3gK3Q4ShA1-yWiz9jQ" target="_blank">
                                 <img src="./cd/icon/icon_spotify.svg" alt="">
                                 <span>SPOTIFY</span>
                             </a>
                         </li>
                         <li class="shr">
-                            <a href="https://music.apple.com/tw/album/taichill-city-gz-ep/1595141032">
+                            <a href="https://music.apple.com/tw/album/taichill-city-gz-ep/1595141032" target="_blank">
                                 <img src="./cd/icon/icon_paly.svg" alt="">
                                 <span>Apple Music</span>
                             </a>
                         </li>
                         <li class="shr">
-                            <a href="https://www.fireonshop.com/products/spirit-of-buffalo">
+                            <a href="https://www.fireonshop.com/products/spirit-of-buffalo" target="_blank">
                                 <img src="./cd/icon/icon_cart.svg" alt="">
                                 <span>點我購買</span>
                             </a>
