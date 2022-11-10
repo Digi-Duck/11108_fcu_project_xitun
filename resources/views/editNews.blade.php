@@ -26,6 +26,7 @@
             font-family: Lucida Console;
             color: rgb(82, 119, 135);
         }
+
     </style>
     <x-slot name="header">
         <h2 class="font-semibold text-xl text-gray-800 leading-tight">
@@ -81,6 +82,7 @@
                      if (document.getElementById("date_input").value == '')
                      {
                         alert("日期欄位不得為空");
+                        document.getElementById("date_input").disabled=true;
                         return;
                      }
                      else
@@ -88,6 +90,7 @@
                         if (document.getElementById("title_input").value == '')
                         {
                             alert("名稱欄位不得為空");
+                            document.getElementById("date_input").disabled=true;
                             return;
                         }
                         else
@@ -95,6 +98,7 @@
                             if (document.getElementById("description").value == '')
                             {
                                 alert("此次送出未填寫描述欄位");
+                                document.getElementById("date_input").disabled=true;
                                 return;
                             }
 
