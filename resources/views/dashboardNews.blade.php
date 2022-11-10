@@ -70,6 +70,18 @@
             <form action="" method="GET">
                 <div class="bg-white overflow-hidden shadow-sm sm:rounded-lg">
                     <div class="p-6 bg-white border-b border-gray-200">
+                        <label for="contactChoice1">前台排序</label>
+
+                        {{-- <button class="btn-top1 btn-top">
+                            <a href="/clientold" target="_blank">前台OLD
+                                <input type="button" onclick="window.open('/dashboardNews')">
+                            </a>
+                        </button>
+                        <button class="btn-top2 btn-top">
+                            <a href="/clientnew" target="_blank">前台NEW
+                                <input type="button" onclick="window.open('/dashboardNews')">
+                            </a>
+                        </button> --}}
                         {{-- <p style="font-size:16px;">資料排序</p> --}}
                         <button class="btn-top1 btn-top"><a href="/old">OLD</a></button>
                         <button class="btn-top2 btn-top"><a href="/new">NEW</a></button>
@@ -77,25 +89,27 @@
                             @foreach ($project as $index => $item)
                                 <li>
                                     <div class="information_text" style="position: relative;">
-                                        <h3  style="background-color: rgb(93, 149, 204); width:250px;border-radius:10px;color:white">{{ $index + 1 }}_🖋
+                                        <h3
+                                            style="background-color: rgb(93, 149, 204); width:250px;border-radius:10px;color:white">
+                                            {{ $index + 1 }}_🖋
                                             資料編號:{{ $item->id }}
                                         </h3>
 
-                                    <div style="padding-left:10px; ">
-                                        <span>日期:</span>
-                                        <p id="information_date">{{ $item->date }}</p>
-                                        <span>標題:</span>
-                                        <p id="information_title"> {{ $item->title }}</p>
-                                        <span> 描述:</span>
-                                        <p id="information_description">{!!$item->description!!}</p>
-                                    </div>
+                                        <div style="padding-left:10px; ">
+                                            <span>日期:</span>
+                                            <p id="information_date">{{ $item->date }}</p>
+                                            <span>標題:</span>
+                                            <p id="information_title"> {{ $item->title }}</p>
+                                            <span> 描述:</span>
+                                            <p id="information_description">{!! $item->description !!}</p>
+                                        </div>
 
                                         <div class="information_button">
                                             <button class="submit_btn btn_edit">
-                                                <a href="/edit/{{$item->id}}">編輯</a>
+                                                <a href="/edit/{{ $item->id }}">編輯</a>
                                             </button>
                                             <button type="reset" class="submit_btn btn_reset">
-                                                <a href="/clear/{{$item->id}}">刪除</a>
+                                                <a href="/clear/{{ $item->id }}">刪除</a>
                                             </button>
                                         </div>
                                         <br>
@@ -108,7 +122,7 @@
                         </ul>
 
                     </div>
-                                </div>
+                </div>
             </form>
         </div>
     </div>

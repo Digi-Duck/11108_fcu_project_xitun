@@ -48,13 +48,13 @@ Route::get('/update/{id}',  [ProjectController::class,'update']
 );
 
 
-// 排序
+// 後台排序
 Route::get('/old', [sortController::class,'selectOld']
 )->middleware(['auth', 'verified']);
 Route::get('/new', [sortController::class,'selectNew']
 )->middleware(['auth', 'verified']);
 
-
+// 前台排序
 Route::get('/clientold', [sortController::class,'frontOld']
 )->middleware(['auth', 'verified']);;
 Route::get('/clientnew', [sortController::class,'frontNew']

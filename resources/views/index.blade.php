@@ -482,8 +482,8 @@
 
                 <div class="datetext">
                     <span id="newstext">NEWS</span> <hr>
-                    {{-- <button class=" btn-top"><a href="/clientold">最舊置頂</a></button>
-                    <button class=" btn-top"><a href="/clientnew">最新置頂</a></button> --}}
+                    <button class=" btn-top"><a href="/clientold">最舊置頂</a></button>
+                    <button class=" btn-top"><a href="/clientnew">最新置頂</a></button>
                     <table id="datetext_ul">
                         @foreach ($project as $index => $item)
                         <tr>

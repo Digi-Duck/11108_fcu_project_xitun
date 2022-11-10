@@ -13,7 +13,6 @@ class sortController extends Controller
         $project=DB::table('projects')->orderBy('id','asc')->get();
         return view('dashboardNews',compact('project'));
     }
-
     public function selectNew()
     {
         $project=DB::table('projects')->orderBy('id','desc')->get();
@@ -23,16 +22,16 @@ class sortController extends Controller
 
 
     // 前台排序
-    // public function frontOld()
-    // {
-    //     $project=DB::table('projects')->orderBy('id','asc')->get();
-    //     return view('invitation',compact('project'));
-    // }
+    public function frontOld()
+    {
+        $project=DB::table('projects')->orderBy('id','asc')->get();
+        return view('index',compact('project'));
+    }
 
-    // public function frontNew()
-    // {
-    //     $project=DB::table('projects')->orderBy('id','desc')->get();
+    public function frontNew()
+    {
+        $project=DB::table('projects')->orderBy('id','desc')->get();
 
-    //     return view('invitation',compact('project'));
-    // }
+        return view('index',compact('project'));
+    }
 }
