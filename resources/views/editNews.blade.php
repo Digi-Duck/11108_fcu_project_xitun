@@ -41,17 +41,17 @@
                     <div class="p-6 bg-white border-b border-gray-200" style="padding: 20px;">
                         <label for="date_input" ">Edit Date:</label><br>
                         <input type="text" name="date" id="date_input" placeholder="請輸入活動日期"
-                            style="width: 400px;height:40px;" value="{{$editDB->date}}">
+                            style="width: 400px;height:40px;" value="{{$editDB->date}}" required>
                         <br><br>
                         <label for="title_input">Edit Title:</label><br>
                         <input type="text" name="title" id="title_input"
-                            placeholder="請輸入活動標題"style="width: 400px;height:40px;"value="{{$editDB->title}}">
+                            placeholder="請輸入活動標題"style="width: 400px;height:40px;"value="{{$editDB->title}}" required>
                         <br><br>
                      </div>
                     <br>
                     <div id="Description" style="padding: 20px;">
                         <label for="description_input">Description:🖋🖋🖋</label><br><br>
-                        <textarea name="description" id="description"></textarea>
+                        <textarea name="description" id="description" required></textarea>
                     </div>
                     {{-- <div id="Description" style="padding: 20px;">
                         <label for="description_input">Edit Description:🖋🖋🖋</label><br><br>
@@ -59,7 +59,7 @@
                             placeholder="請輸入活動描述"style="width:100%;height:20vh;" value="{{$editDB->description}}">
                     </div> --}}
                 </div>
-                <button type="submit" class="submit_btn" id="addButton">更新</button>
+                <button type="submit" class="submit_btn" id="addButton" >更新</button>
                 {{-- <button type="check" class="submit_btn btn_reset">清除</button> --}}
             </form>
 
@@ -82,7 +82,7 @@
                      if (document.getElementById("date_input").value == '')
                      {
                         alert("日期欄位不得為空");
-                        addButton.disabled=true;
+                        // addButton.disabled=true;
                         return;
                      }
                      else
@@ -90,7 +90,7 @@
                         if (document.getElementById("title_input").value == '')
                         {
                             alert("名稱欄位不得為空");
-                            addButton.disabled=true;
+                            // addButton.disabled=true;
                             return;
                         }
                         else
@@ -98,13 +98,14 @@
                             if (document.getElementById("description").value == '')
                             {
                                 alert("此次送出未填寫描述欄位");
-                                addButton.disabled=true;
+                                // addButton.disabled=true;
                                 return;
                             }
 
                         }
-                     }
-                }
+                     }}
+
+
 
             </script>
         </div>
