@@ -60,7 +60,7 @@
                     </div> --}}
                 </div>
                 <button type="submit" class="submit_btn" id="addButton">更新</button>
-                {{-- <button type="reset" class="submit_btn btn_reset">清除</button> --}}
+                {{-- <button type="check" class="submit_btn btn_reset">清除</button> --}}
             </form>
 
             <script>
@@ -82,7 +82,7 @@
                      if (document.getElementById("date_input").value == '')
                      {
                         alert("日期欄位不得為空");
-                        document.getElementById("date_input").disabled=true;
+                        addButton.disabled=true;
                         return;
                      }
                      else
@@ -90,7 +90,7 @@
                         if (document.getElementById("title_input").value == '')
                         {
                             alert("名稱欄位不得為空");
-                            document.getElementById("date_input").disabled=true;
+                            addButton.disabled=true;
                             return;
                         }
                         else
@@ -98,7 +98,7 @@
                             if (document.getElementById("description").value == '')
                             {
                                 alert("此次送出未填寫描述欄位");
-                                document.getElementById("date_input").disabled=true;
+                                addButton.disabled=true;
                                 return;
                             }
 
