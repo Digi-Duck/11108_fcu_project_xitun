@@ -57,11 +57,9 @@
                         <input type="text" name="description" id="description_input"
                             placeholder="請輸入活動描述"style="width:100%;height:20vh;" value="{{$editDB->description}}">
                     </div> --}}
-
-
                 </div>
                 <button type="submit" class="submit_btn" id="addButton">更新</button>
-                <button type="reset" class="submit_btn btn_reset">清除</button>
+                {{-- <button type="reset" class="submit_btn btn_reset">清除</button> --}}
             </form>
 
             <script>

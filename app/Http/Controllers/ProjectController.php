@@ -61,8 +61,7 @@ class ProjectController extends Controller
          'description'=>$request->description,
          ]);
           return redirect('dashboardNews');
-
-            }
+        }
 // 複製新的dashboardNews 建立路由
 
 
