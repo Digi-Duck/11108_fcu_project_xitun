@@ -71,6 +71,37 @@
                     });
                     $('#description').summernote('code', '');
                 });
+
+                let addButton = document.querySelector('#addButton');
+                addButton.addEventListener('click', checkUI);
+                //檢查UI資訊
+                 function checkUI()
+                 {
+                    //判斷圖片輸入值是否為空
+                     if (document.getElementById("date_input").value == '')
+                     {
+                        alert("日期欄位不得為空");
+                        return;
+                     }
+                     else
+                     {
+                        if (document.getElementById("title_input").value == '')
+                        {
+                            alert("名稱欄位不得為空");
+                            return;
+                        }
+                        else
+                        {
+                            if (document.getElementById("description").value == '')
+                            {
+                                alert("此次送出未填寫描述欄位");
+                                return;
+                            }
+
+                        }
+                     }
+                }
+
             </script>
         </div>
     </div>
