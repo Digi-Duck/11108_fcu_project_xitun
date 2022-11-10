@@ -97,7 +97,7 @@
                         {
                             if (document.getElementById("description").value == '')
                             {
-                                alert("此次送出未填寫描述欄位");
+                                alert("描述欄位不得為空");
                                 // addButton.disabled=true;
                                 return;
                             }
