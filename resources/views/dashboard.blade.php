@@ -61,7 +61,7 @@
             <script>
                 $(document).ready(function() {
                     $('#description').summernote({
-                        height: 180,
+                        height: 225,
                         placeholder: '請輸入活動描述',
                         inheritPlaceholder: true,
                     });
