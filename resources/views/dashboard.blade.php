@@ -39,11 +39,11 @@
                     <div class="p-6 bg-white border-b border-gray-200" style="padding: 20px;">
                         <label for="date_input" ">Date:</label><br>
                         <input type="text" name="date" id="date_input" placeholder="請輸入活動日期"
-                            style="width: 400px;height:40px;">
+                            style="width: 400px;height:40px;" required>
                         <br><br>
                         <label for="title_input">Title:</label><br>
                         <input type="text" name="title" id="title_input"
-                            placeholder="請輸入活動標題"style="width: 400px;height:40px;">
+                            placeholder="請輸入活動標題"style="width: 400px;height:40px;" required>
                         <br><br>
                      </div>
 
@@ -51,7 +51,7 @@
 
                     <div id="Description" style="padding: 20px;">
                         <label for="description_input">Description:🖋🖋🖋</label><br><br>
-                        <textarea name="description" id="description"></textarea>
+                        <textarea name="description" id="description" required></textarea>
                     </div>
                 </div>
 
