@@ -49,12 +49,13 @@
 
         .btn-top {
             width: 100px;
-            height: 30px;
+            height: 40px;
             background-color: rgb(211, 165, 165);
             border-radius: 10px;
             margin-left: 20px;
-        }
 
+        }
+ .btn-top a{font-size: 20px;}
         .btn-top:hover {
             background-color: rgb(225, 50, 50);
             color: white;
@@ -70,7 +71,7 @@
             <form action="" method="GET">
                 <div class="bg-white overflow-hidden shadow-sm sm:rounded-lg">
                     <div class="p-6 bg-white border-b border-gray-200">
-                        <label for="contactChoice1">前台排序</label>
+                        {{-- <label for="contactChoice1">前台排序</label> --}}
 
                         {{-- <button class="btn-top1 btn-top">
                             <a href="/clientold" target="_blank">前台OLD
@@ -92,7 +93,7 @@
                                         <h3
                                             style="background-color: rgb(93, 149, 204); width:250px;border-radius:10px;color:white">
                                             {{ $index + 1 }}_🖋
-                                            資料編號:{{ $item->id }}
+                                            資料ID:{{ $item->id }}
                                         </h3>
 
                                         <div style="padding-left:10px; ">
