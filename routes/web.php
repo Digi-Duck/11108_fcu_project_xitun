@@ -56,9 +56,9 @@ Route::get('/new', [sortController::class,'selectNew']
 
 // 前台排序
 Route::get('/clientold', [sortController::class,'frontOld']
-)->middleware(['auth', 'verified']);;
+);
 Route::get('/clientnew', [sortController::class,'frontNew']
-)->middleware(['auth', 'verified']);;
+);
 
 
 // CD塔
