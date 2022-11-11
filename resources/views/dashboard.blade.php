@@ -67,6 +67,41 @@
                     });
                     $('#description').summernote('code', '');
                 });
+
+                let addButton = document.querySelector('#addButton');
+                addButton.addEventListener('click', checkUI);
+                //檢查UI資訊
+                 function checkUI()
+                 {
+                    //判斷圖片輸入值是否為空
+                     if (document.getElementById("date_input").value == '')
+                     {
+                        alert("日期欄位不得為空");
+                        // addButton.disabled=true;
+                        return;
+                     }
+                     else
+                     {
+                        if (document.getElementById("title_input").value == '')
+                        {
+                            alert("名稱欄位不得為空");
+                            // addButton.disabled=true;
+                            return;
+                        }
+                        else
+                        {
+                            if (document.getElementById("description").value == '')
+                            {
+                                alert("描述欄位不得為空");
+                                // addButton.disabled=true;
+                                return;
+                            }
+
+                        }
+                     }}
+
+
+
             </script>
         </div>
     </div>
